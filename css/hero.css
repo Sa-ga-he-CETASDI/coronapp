@@ -1,0 +1,18 @@
+/* .hero {
+  display: flex;
+} */
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero__texto {
+    border: 1px solid rebeccapurple;
+    max-width: 500px;
+  }
+  .hero__img {
+    border: 1px solid royalblue;
+  }
+}

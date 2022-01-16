@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: #1d957f;
+  padding: 8px 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-menu {
+  background: none;
+  border: none;
+  font-size: 24px;
+}

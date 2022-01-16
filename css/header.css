@@ -1,0 +1,42 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  block-size: 60px;
+}
+header nav{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: red;
+/*   width: 300px; */
+inline-size: 0;
+block-size: 100vh;
+opacity: 0;
+transition: epacity 0.3s ease-in-out;
+}
+.mostrar {
+  inline-size: 300px;
+  opacity: 1;
+}
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 24px;
+}
+
+header nav {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  header nav {
+    display: block;
+  }
+  .btn-menu {
+    display: none;
+  }
+}
